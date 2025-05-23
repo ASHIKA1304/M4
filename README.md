@@ -10,8 +10,18 @@ To write a C Program to perform the basic left shift operation for 44 integer nu
 5.	Stop the program.
 
 ## PROGRAM
-
+```
+#include <stdio.h> 
+int main() { 
+int a = 44, b = 3; 
+int result = a << b; 
+printf("The result of left shifting %d by %d positions is: %d\n", a, b, result); 
+return 0; 
+}
+```
 ## OUTPUT
+![Screenshot 2025-04-27 174320](https://github.com/user-attachments/assets/b2344627-f5fd-4d15-87a8-6baf063423c0)
+
 
 
 
@@ -47,9 +57,26 @@ Write a C Program to check whether the two numbers are equal or not using simple
 5.	Stop the program.
 
 ## PROGRAM
-
+```
+#include <stdio.h>
+int main()
+{
+    int a,b;
+    scanf("%d%d",&a,&b);
+    if (a==b)
+    {
+        printf("Number1 and Number2 are equal");
+    }
+    else
+    {
+        printf("Number1 and Number2 are not equal");
+    }
+}
+```
 
 ## OUTPUT
+![Screenshot 2025-04-27 174653](https://github.com/user-attachments/assets/d355765d-4f68-47d9-ad4e-8e7535e3790f)
+
            
 ## RESULT
 
@@ -70,15 +97,31 @@ Write a C Program to convert the given string into lowercase.
 5.	Stop the program.
 
 ## PROGRAM
+```
+#include <stdio.h>
+#include <ctype.h>
+
+int main() {
+    char str[100];
+    int i;
+    scanf("%s", str);
+    for (i = 0; str[i] != '\0'; i++) {
+        str[i] = tolower(str[i]);
+    }
+    printf("Lower case String is:%s\n", str);
+
+    return 0;
+}
+```
 
 ## OUTPUT
+![Screenshot 2025-04-27 174838](https://github.com/user-attachments/assets/e063db65-c254-43ad-905b-dfc7cb3c336c)
 
 
 
 
 ## RESULT
 Thus the program to convert the given string into lowercase has been executed successfully
- 
  
 
 
@@ -95,8 +138,26 @@ Write a C Program to count the total number of words in a given string using do 
 6.	Stop the program.
 
 ## PROGRAM
+```
+#include <stdio.h> 
+int main() 
+{ 
+char str[100]; 
+int i = 0, count = 1; 
+fgets(str, sizeof(str), stdin); 
+do { 
+if (str[i] == ' ' || str[i] == '\t' || str[i] == '\n') { 
+count++; 
+} 
+i++; 
+} while (str[i] != '\0'); 
+printf("Total number of words: %d\n", count); 
+return 0;
+}
+```
 
 ## OUTPUT
+![Screenshot 2025-04-27 175141](https://github.com/user-attachments/assets/a3da5363-9527-482d-a91a-6166fd542b5a)
 
 
 
@@ -129,9 +190,40 @@ Step 7: After the loop, check the value of flag:
 Step 8: End the program.
 
 ## PROGRAM
-
+```
+#include <stdio.h> 
+int main(){ 
+    char c1[100], c2[100]; 
+    int i = 0, flag = 0; 
+    scanf("%[^\n]", c1); 
+    scanf("%s", c2); 
+    while (c1[i] != '\0' && c2[i] != '\0') 
+    { 
+        if (c1[i] != c2[i]) 
+        { 
+        flag = 1; 
+        break; 
+        } 
+        i++; 
+    } 
+    if (c1[i] != '\0' || c2[i] != '\0') 
+    { 
+    flag = 1; 
+    } 
+    if (flag == 0) 
+    { 
+    printf("Strings are same.\n"); 
+    }
+    else {
+    printf("Strings are not same.\n"); 
+    } 
+    return 0; 
+}
+```
 
 ## OUTPUT
+![Screenshot 2025-04-27 175647](https://github.com/user-attachments/assets/9029fb9b-e64f-4b1d-ba8b-8cca89fa7040)
+
  
 
 ## RESULT
