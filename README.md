@@ -9,6 +9,7 @@ To write a C Program to perform the basic left shift operation for 44 integer nu
 4.	Display the result.
 5.	Stop the program.
 
+
 ## PROGRAM
 ```
 #include <stdio.h> 
@@ -20,30 +21,12 @@ return 0;
 }
 ```
 ## OUTPUT
-![Screenshot 2025-04-27 174320](https://github.com/user-attachments/assets/b2344627-f5fd-4d15-87a8-6baf063423c0)
-
-
-
-
-
-
-
-
-
+![image](https://github.com/user-attachments/assets/312f0ec2-9e18-481f-ab8e-74a73af74ab9)
 
 ## RESULT
 Thus the program to perform the basic left shift operation for 44 integer number with 3 shifts has been executed successfully.
 
-
-
-
- 
- 
-
-
 # EX-17-TWO-NUMBERS-ARE-EQUAL-OR-NOT
-
-
 ## AIM
 
 Write a C Program to check whether the two numbers are equal or not using simple if statement.
@@ -75,9 +58,8 @@ int main()
 ```
 
 ## OUTPUT
-![Screenshot 2025-04-27 174653](https://github.com/user-attachments/assets/d355765d-4f68-47d9-ad4e-8e7535e3790f)
+![image](https://github.com/user-attachments/assets/39bb0107-d685-4943-9260-93055a27c0c7)
 
-           
 ## RESULT
 
 Thus the program to check whether the two numbers are equal or not using simple if statement has been executed successfully
@@ -113,15 +95,14 @@ int main() {
     return 0;
 }
 ```
-
 ## OUTPUT
-![Screenshot 2025-04-27 174838](https://github.com/user-attachments/assets/e063db65-c254-43ad-905b-dfc7cb3c336c)
-
+![image](https://github.com/user-attachments/assets/b54c2a6d-9dc6-4da7-aa09-fcd08d7fba15)
 
 
 
 ## RESULT
 Thus the program to convert the given string into lowercase has been executed successfully
+ 
  
 
 
@@ -155,11 +136,8 @@ printf("Total number of words: %d\n", count);
 return 0;
 }
 ```
-
 ## OUTPUT
-![Screenshot 2025-04-27 175141](https://github.com/user-attachments/assets/a3da5363-9527-482d-a91a-6166fd542b5a)
-
-
+![image](https://github.com/user-attachments/assets/83ef3efb-e3f3-40ba-9d45-f9c2e0396c0e)
 
 
 
@@ -222,8 +200,7 @@ int main(){
 ```
 
 ## OUTPUT
-![Screenshot 2025-04-27 175647](https://github.com/user-attachments/assets/9029fb9b-e64f-4b1d-ba8b-8cca89fa7040)
-
+![image](https://github.com/user-attachments/assets/12268113-1a0f-4d26-bdd9-88d17c8e023e)
  
 
 ## RESULT
