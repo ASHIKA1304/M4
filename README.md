@@ -9,7 +9,6 @@ To write a C Program to perform the basic left shift operation for 44 integer nu
 4.	Display the result.
 5.	Stop the program.
 
-
 ## PROGRAM
 ```
 #include <stdio.h> 
@@ -21,12 +20,24 @@ return 0;
 }
 ```
 ## OUTPUT
-![image](https://github.com/user-attachments/assets/312f0ec2-9e18-481f-ab8e-74a73af74ab9)
+
+
+![437953033-b2344627-f5fd-4d15-87a8-6baf063423c0](https://github.com/user-attachments/assets/21af7126-17b1-4c69-916b-3f85afef0454)
+
 
 ## RESULT
 Thus the program to perform the basic left shift operation for 44 integer number with 3 shifts has been executed successfully.
 
+
+
+
+ 
+ 
+
+
 # EX-17-TWO-NUMBERS-ARE-EQUAL-OR-NOT
+
+
 ## AIM
 
 Write a C Program to check whether the two numbers are equal or not using simple if statement.
@@ -57,9 +68,12 @@ int main()
 }
 ```
 
-## OUTPUT
-![image](https://github.com/user-attachments/assets/39bb0107-d685-4943-9260-93055a27c0c7)
 
+## OUTPUT
+
+![437953220-d355765d-4f68-47d9-ad4e-8e7535e3790f](https://github.com/user-attachments/assets/7ead1acf-a28a-4c50-b200-76864c9e522e)
+
+           
 ## RESULT
 
 Thus the program to check whether the two numbers are equal or not using simple if statement has been executed successfully
@@ -95,9 +109,10 @@ int main() {
     return 0;
 }
 ```
-## OUTPUT
-![image](https://github.com/user-attachments/assets/b54c2a6d-9dc6-4da7-aa09-fcd08d7fba15)
 
+## OUTPUT
+
+![437953353-e063db65-c254-43ad-905b-dfc7cb3c336c](https://github.com/user-attachments/assets/713efbf4-19e7-4f64-bd86-df60c873735a)
 
 
 ## RESULT
@@ -136,9 +151,10 @@ printf("Total number of words: %d\n", count);
 return 0;
 }
 ```
-## OUTPUT
-![image](https://github.com/user-attachments/assets/83ef3efb-e3f3-40ba-9d45-f9c2e0396c0e)
 
+## OUTPUT
+
+![437953627-a3da5363-9527-482d-a91a-6166fd542b5a](https://github.com/user-attachments/assets/22e2b6f7-0914-4e46-a43c-d47bf072cea2)
 
 
 ## RESULT
@@ -199,9 +215,11 @@ int main(){
 }
 ```
 
+
 ## OUTPUT
-![image](https://github.com/user-attachments/assets/12268113-1a0f-4d26-bdd9-88d17c8e023e)
- 
+
+ ![437953922-9029fb9b-e64f-4b1d-ba8b-8cca89fa7040](https://github.com/user-attachments/assets/e2944da5-74f0-44db-98f6-375294195f4f)
+
 
 ## RESULT
 Thus the C Program to compare two strings without using strcmp() has been executed successfully.
